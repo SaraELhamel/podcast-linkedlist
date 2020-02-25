@@ -262,6 +262,21 @@ function punch3(){
     player.autoplay = true;
 
 }
+function rachel1(){
+    player.src = songs[6];
+    player.autoplay = true;
+
+}
+function rachel2(){
+    player.src = songs[7];
+    player.autoplay = true;
+
+}
+function rachel3(){
+    player.src = songs[8];
+    player.autoplay = true;
+
+}
 // New Podcast 2 For Joe
 function newPodcast2(){
     // Get Description

@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
    
-    <title>Podcast#2 | The Alan Podcast</title>
+    <title>Podcast3 | The Alan Podcast</title>
     <link rel="shortcut icon" href="img/logo.png">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
@@ -21,19 +21,21 @@
         <center>
           <img src="img/logo.jpg" alt="logo" width="300px">
         </center>
-        <ul>
-            <li><a href="Home.html">HOME</a></li>
-            <li>
-              <div class="dropdown">
-                <a href="#">PODCASTS</a>
-                 <div class="dropdown-content">
-                    <a href="Podcast#2.html">Podcast#2</a>
-                    <a href="Podcast#3.html">Podcast#3</a>
-                 </div>
-              </div>
-            </li>
-            <li><a href="#">CONTACT</a></li>
-        </ul>  
+        <div class="navbar">
+          <a href="#home">Home</a>
+         
+          <div class="dropdown">
+            <button class="dropbtn">Podcast
+              <!-- <i class="fa fa-caret-down"></i> -->
+            </button>
+            <div class="dropdown-content">
+              <a href="podcast1.html">podcast 1</a>
+              <a href="Podcast2.html">podcast 2</a>
+              <a href="#">podcast 3</a>
+            </div>
+          </div>
+          <a href="#news">Contact</a>
+        </div>
     </header>
 
     <section class="h1"><h1 >The podcasts  on Alan Podcast</h1></section> 
@@ -59,15 +61,15 @@
           <p style="text-align: left; margin-top: 0em ;margin-bottom: 0em ;">1:30/3:45</p>
           
         </div>
-          <audio src="audio\MMPC 2-10-20.mp3" controls id="audio" style="color:teal;margin-top:8%; " ></audio>
+          <audio src="audio\rachel1.mp3" controls id="audio" style="color:teal;margin-top:8%; " ></audio>
         </div>
       
       </div>
       <div class="episodslist">
         <H1 style="color: white; text-align: left;">Episodes PlayList</H1>
-               <h3 style="background-color: #CF8403; color: white; text-align: left; padding: 20px;">1.Scandal found at the end of every Trump financial... </h2>
-               <h3 style="background-color: #CF8403; color: white; text-align: left; padding: 20px;"> 2.Rule of law is not threatened but broken where it.. </h2>
-               <h3 style="background-color: #CF8403; color: white; text-align: left; padding: 20px;"> 3.Trump amplifies risk of standing up for the rule of law </h2>
+               <h3 onclick="rachel1()" style="background-color: #CF8403; color: white; text-align: left; padding: 20px;">1.Scandal found at the end of every Trump financial... </h2>
+               <h3 onclick="rachel2()"style="background-color: #CF8403; color: white; text-align: left; padding: 20px;"> 2.Rule of law is not threatened but broken where it.. </h2>
+               <h3 onclick="rachel3()"style="background-color: #CF8403; color: white; text-align: left; padding: 20px;"> 3.Trump amplifies risk of standing up for the rule of law </h2>
       </div>
     </div>
   </center>
