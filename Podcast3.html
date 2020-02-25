@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/icon.png" type="img/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Podcast#2 | The Alan Podcast</title>
+    <link rel="shortcut icon" href="img/logo.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="podcast.js">
+</head>
+<body>
+     <!-- Nav bar -->
+     <header>
+        <center>
+          <img src="img/logo.jpg" alt="logo" width="300px">
+        </center>
+        <ul>
+            <li><a href="Home.html">HOME</a></li>
+            <li>
+              <div class="dropdown">
+                <a href="#">PODCASTS</a>
+                 <div class="dropdown-content">
+                    <a href="Podcast#2.html">Podcast#2</a>
+                    <a href="Podcast#3.html">Podcast#3</a>
+                 </div>
+              </div>
+            </li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>  
+    </header>
+
+    <section class="h1"><h1 >The podcasts  on Alan Podcast</h1></section> 
+</head>
+<body>
+  <center>
+    <div class="playlist" >
+      <div class="audioplayer">
+        <div class="podcast-info">
+          <!-- This is podcast avatar -->
+          <div style="width: 50%;">
+            <img src="img\pic2.jpeg" >
+          </div>
+            
+            <!-- podcast decription -->
+          <div class="podcast-description">
+            <p style="text-align: left; font-size: 30px; margin-top: 0em ;margin-bottom: 0em ;">The Rachel Maddow Show</p>
+            <p style="text-align: left;font-size: small; margin-top: 0em ;margin-bottom: 0em ;">Take MSNBC's popular Rachel Maddow Show with you on the go. Listen to full episodes of the television show on demand daily. The MSNBC podcast takes an intelligent and thought provoking look at politics, pop culture, and top news. Hosted by political commentator Rachel Maddow</p>
+          </div>    
+        </div>
+        <div class="Epi" style="width: 100%; background-color: white;display: flex; justify-content: space-between;">
+          <p style="text-align: left; margin-top: 0em ;margin-bottom: 0em ;">1.Scandal found at the end of every Trump financial... </p>
+          <p style="text-align: left; margin-top: 0em ;margin-bottom: 0em ;">1:30/3:45</p>
+          
+        </div>
+          <audio src="audio\MMPC 2-10-20.mp3" controls id="audio" style="color:teal;margin-top:8%; " ></audio>
+        </div>
+      
+      </div>
+      <div class="episodslist">
+        <H1 style="color: white; text-align: left;">Episodes PlayList</H1>
+               <h3 style="background-color: #CF8403; color: white; text-align: left; padding: 20px;">1.Scandal found at the end of every Trump financial... </h2>
+               <h3 style="background-color: #CF8403; color: white; text-align: left; padding: 20px;"> 2.Rule of law is not threatened but broken where it.. </h2>
+               <h3 style="background-color: #CF8403; color: white; text-align: left; padding: 20px;"> 3.Trump amplifies risk of standing up for the rule of law </h2>
+      </div>
+    </div>
+  </center>
+  <center>
+    <div class="background">
+      <h3 style="color: white; margin-bottom: 3%;">Add new Episode</h3>
+      <div id="empty"></div>
+
+      <!-- Forms For Inputs -->
+      <div class="inputs">
+        <div class="inputs-group-1">
+          <input type="test" id="launch" placeholder="la durée">
+          <input type="test" id="date" placeholder="l'heure et la date d'ajout">
+          <input type="test" id="episode" placeholder="le nom de l'épisode">
+        </div>
+  
+        <div class="inputs-group-2">
+          <input type="test" id="description" placeholder="la description de l'épisode">
+          <input type="test" id="morceau" placeholder="le lien du morceau">
+          <input type="test" id="tags" placeholder="les tags associés">
+        </div>
+  
+      </div>
+  
+      <!-- Inputs Group 3 -->
+      <div class="inputs-group-3">
+        <input type="test" id="invite" placeholder="Les invités">
+        <button class="submit" onclick="addPodcast()">Submit</button>
+      </div>
+  
+      <!-- Scripts For Import Only -->
+      <script src="js/podcast.js"></script>
+    
+    
+    </div>
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="img/icon.png" type="img/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Podcast#3 | The Alan Podcast</title>
+    <link rel="shortcut icon" href="img/logo.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+     <!-- Nav bar -->
+     <header>
+        <center>
+          <img src="img/logo.jpg" alt="logo" width="300px">
+        </center>
+        <ul>
+            <li><a href="Home.html">HOME</a></li>
+                <div class="dropdown">
+                    <a href="">PODCASTS</a>
+                     <div class="dropdown-content">
+                        <a href="Podcast1.html">Podcast1</a>
+                        <a href="Podcast2.html">Podcast2</a>
+                        <a href="Podcast3.html">Podcast3</a>
+                     </div>
+                  </div>
+            <li><a href="#">CONTACT</a></li>
+        </ul>  
+    </header>
+    <section class="h1"><h1 >The podcasts  on Alan Podcast</h1></section>
+    <center>
+      <div class="playlist" >
+        <div class="audioplayer" style="background-color: #FEB12C; width:100%;height: 400px;">
+          <div class="podcast-info">
+            <!-- This is podcast avatar -->
+            <div style="width: 50%;">
+              <img src="img\pic3.jpg" >
+            </div>
+              
+              <!-- podcast decription -->
+            <div class="podcast-description">
+              <p style="text-align: left; font-size: 30px; margin-top: 0em ;margin-bottom: 0em ;">PUNCH UP THE JAM</p>
+              <p style="text-align: left; font-size: 12px;" >What if the greatest musical hits could be ...greater? Every Thursday,<br> comedian/musician Miel Bredouw teams up with a special guest to revisit,<br> review and revise the pop songs of our past, and offer an improved "punched-up" version</p>
+            </div>    
+          </div>
+          <div class="Epi" >
+            <p style="text-align: left; margin-top: 0em ;margin-bottom: 0em ;">"Bette Davis Eyes" by Kim Carnes (w/ Andy Haynes) </p>
+            <p style="text-align: left; margin-top: 0em ;margin-bottom: 0em ;">1:30/3:45</p>
+          </div>
+          <audio src="audio\punch1.mp3"  id="audio" style="color:teal;margin-top:3%; " controls ></audio>
+          <!-- <div style="width: 100%; justify-content: space-between; background-color: #FEB12C; display: flex;padding: 30px;">
+            <div style="width: 15%; margin-top: 3%;">
+              <img src="img\prev.png" style="max-width: 100%;max-height: 100%;background-color: #CF8403;border-radius: 50%;padding: 10px;" >
+            </div>
+            <div style="width: 20%; margin-top: 3%;">
+              <img src="img\play.png" style="max-width: 100%;max-height: 100%;background-color: #CF8403;border-radius: 50%;padding: 10px;" >
+            </div>
+            <div style="width: 15%; margin-top: 3%;">
+              <img src="img\next.png" style="max-width: 100%;max-height: 100%;background-color: #CF8403;border-radius: 50%;padding: 10px;" >
+            </div>
+          </div> -->
+        </div>
+        <div class="episodslist1">
+          <h1 style="color: white; text-align: left;">Episodes PlayList</H1>
+                 <h3 onclick="punch1()" style="background-color: #CF8403; color: white; text-align: left; padding: 20px;"> 1. "Bette Davis Eyes" by Kim Carnes (w/ Andy Haynes)</h2>
+                 <h3 onclick="punch2()"style="background-color: #CF8403; color: white; text-align: left; padding: 20px;"> 2.Material Girl" by Madonna (w/ Naomi Fry)</h2>
+                 <h3 onclick="punch3()" style="background-color: #CF8403; color: white; text-align: left; padding: 20px;"> 3."Liquid Dreams" by O-Town (w/ David Sims)</h2>
+        </div>
+      </div>
+    </center>
+    <center>
+     
+      <div class="background">
+        <h3 style="color: white; margin-bottom: 3%;">Add new Episode</h3>
+        <div id="empty"></div>
+
+        <!-- Forms For Inputs -->
+        <div class="inputs">
+          <div class="inputs-group-1">
+            <input type="test" id="launch" placeholder="la durée">
+            <input type="test" id="date" placeholder="l'heure et la date d'ajout">
+            <input type="test" id="episode" placeholder="le nom de l'épisode">
+          </div>
+    
+          <div class="inputs-group-2">
+            <input type="test" id="description" placeholder="la description de l'épisode">
+            <input type="test" id="morceau" placeholder="le lien du morceau">
+            <input type="test" id="tags" placeholder="les tags associés">
+          </div>
+    
+        </div>
+    
+        <!-- Inputs Group 3 -->
+        <div class="inputs-group-3">
+          <input type="test" id="invite" placeholder="Les invités">
+          <button class="submit" onclick="addPodcast()">Submit</button>
+        </div>
+    
+        <!-- Scripts For Import Only -->
+        <script src="js/podcast.js"></script>
+      
+      
+      </div>
+    </center>
+</body>
+</html>
