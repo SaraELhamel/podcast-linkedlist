@@ -1,0 +1,193 @@
+*{
+  box-sizing: border-box;
+}
+/* Podcast 3 */
+.podcast-3{
+  display: flex;
+  width: 87%;
+  margin: auto;
+}
+
+/* Podcast Content */
+.podcast-3 .podcast-3-content{
+  position: relative;
+  transform: translate(50%);
+  padding-left: 50px;
+}
+/* Podcast Content title*/
+.podcast-3 .podcast-3-content h1{
+  font-size: 3vw;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: -13px;
+  color: white;
+  margin-left: -65px;
+
+}
+
+/* Podcast Podcaster */
+.podcast-3 .podcast-3-content h5{
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1vw;
+  margin-bottom: -2px;
+  color: white;
+}
+
+/* Podcast Podcaster Description */
+.podcast-3 .podcast-3-content p{
+  font-family: 'Poppins light', sans-serif;
+  line-height: 25px;
+  font-size: 11px;
+  width: 65%;
+  color: white;
+}
+
+/* Podcasts Images */
+.podcast-3 .podcast-3-image{
+  width: 250px;
+  height: 250px;
+}
+
+/* ################### Forms For Inputs ####################### */
+/* Group Of All Inputs */
+.inputs{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 35px;
+}
+/* Inputs Group 1 */
+.inputs .inputs-group-1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+
+/* Inputs Group 2 */
+.inputs .inputs-group-2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+
+/* Inputs Group 3 */
+.inputs-group-3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inputs-group-3 input::placeholder{
+  color: #7f8c8d
+}
+
+.inputs-group-3 input{
+  padding: 12px;
+  margin-bottom: 14px;
+  width: 40%;
+  border: 1px solid white;
+  background-color: #383634;
+  color: white;
+}
+
+/* Inputs Properties */
+.inputs input{
+  padding: 12px;
+  margin-bottom: 14px;
+  border: 1px solid white;
+  background-color: #383634;
+  width: 80%;
+  color: white;
+}
+
+.inputs input:focus, .inputs-group-3 input:focus {
+  color: white;
+  border: none;
+}
+
+/* Inputs Placeholder */
+.inputs input::placeholder{
+  color: #7f8c8d;
+}
+
+/* Button */
+.submit{
+  padding: 12px;
+  width: 150px;
+  border: none;
+  cursor: pointer;
+  border: 1px solid white;
+  background-color: #383634;
+  color: white;
+}
+
+.submit:focus{
+  display:none ;
+}
+
+/* ################### Create New Element ####################### */
+/* New Element */
+.newElement{
+  width: 33.33%;
+  border: 1px solid white;
+}
+
+/* Image For New Element */
+.newElement img{
+    width: 100%;
+}
+
+/* Title and Podcaster For New Element */
+.newElement .title{
+    position: relative;
+    margin: 0px;
+    text-align: center;
+    color: #fdcb6e;
+}
+
+/* Duration For New Element */
+.newElement .duration{
+  margin-left: 10px;
+  color: #636e72;
+}
+
+/* Time For New Element */
+.newElement .time{
+  float: right;
+  margin-right: 10px;
+  color: #636e72;
+}
+
+/* Description For New Element */
+.newElement .description{
+  text-align: center;
+  color: #b2bec3;
+  font-family: "Poppins";
+}
+
+/* Invtag stands for invite and tag [div contains two p (invite, tag)] */
+.invtag{
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  width: 100%;
+}
+
+.invtag p{
+  color: white;
+}
+
+
+/* Empty div */
+#empty{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+#empty .newElement{
+  width: 31%;
+  margin-top: 10px;
+  margin-right: 10px;
+}

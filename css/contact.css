@@ -1,0 +1,190 @@
+html, body, div, span, applet, object, iframes,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp, 
+small, strike, sub, tt, var,
+u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, 
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* CSS contact */
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#bloc_page{
+    display: flex;
+    flex-flow: wrap column;
+}
+section{
+    margin: auto;
+    background: #CF8403;
+    padding: 25px 90px 30px; 
+    border-radius: 25px;
+}
+.para1, span{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.send{
+    width: 794px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+}
+.area{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    width: 794px;
+    height: 200px;
+    border: none;
+    border-radius: 5px;
+}
+.xlarge{
+    width: 262px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
+.select{
+    width: 610px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+/* Le Responsive */
+@media screen and (max-width: 320px){
+    body{
+        margin: 0px;
+        padding: 0px;
+    }
+    section{
+        margin: 5px;
+        background: #CF8403;
+        padding: 5px 0px 5px 25px; 
+        border-radius: 5px;
+    }
+    .para1, span{
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        text-align: justify;
+        margin-right: 50px
+    }
+    form p{
+        display: flex;
+        flex-direction: column;
+    }
+    .xlarge{
+        border-radius: 5px;
+        border: none;
+        margin: 1px;
+    }
+    .select{
+        width: 260px;
+        height: 35px;
+        border: none;
+        border-radius: 5px;
+        margin-bottom: 1px;
+    }
+    .area{
+        font-size: 20px;
+        font-family: 'Poppins', sans-serif;
+        width: 258px;
+        height: 300px;
+        border: none;
+        border-radius: 5px;
+    }
+    .submit{
+        width: 260px;
+        height: 40px;
+        border: none;
+        border-radius: 5px;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 1280px){
+    body{
+        width: 100%;
+        height: auto;
+        margin: 0px;
+        padding: 0px;
+    }
+    section{
+        margin: 5px;
+        background: #CF8403;
+        padding: 5px 0px 5px 25px; 
+        border-radius: 5px;
+    }
+    .para1, span{
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        text-align: justify;
+        margin-right: 50px
+    }
+    form p{
+        display: flex;
+        flex-flow: wrap column;
+    }
+    .xlarge{
+        border-radius: 5px;
+        border: none;
+        margin: 1px;
+    }
+    .select{
+        width: 260px;
+        height: 35px;
+        border: none;
+        border-radius: 5px;
+        margin-top: 2px;
+    }
+    .area{
+        font-size: 20px;
+        font-family: 'Poppins', sans-serif;
+        width: 258px;
+        height: 300px;
+        border: none;
+        border-radius: 5px;
+    }
+    .send{
+        width: 260px;
+        height: 40px;
+        border: none;
+        border-radius: 5px;
+    }
+}
+
+

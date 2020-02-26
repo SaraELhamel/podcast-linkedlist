@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/icon.png" type="img/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="shortcut icon" href="img/logo.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <title>Podcast | contact </title>
+</head>
+<body>
+    <div id="bloc_page">
+        <!-- Nav bar -->
+        <header>
+            <div>
+            <center>
+            <img src="img/logo.jpg" alt="logo" width="300px">
+            </center>
+            <ul>
+                <li><a href="HOME.html">HOME</a></li>
+                <li>
+                    <div class="dropdown">
+                        <button class="dropbtn">Podcast
+                          <!-- <i class="fa fa-caret-down"></i> -->
+                        </button>
+                        <div class="dropdown-content">
+                          <a href="Podcast1.html">podcast 1</a>
+                          <a href="Podcast2.html">podcast 2</a>
+                          <a href="Podcast3.html">podcast 3</a>
+                        </div>
+                      </div>
+                </li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+            </div>
+        </header>
+        <section>
+            <div>
+                <p class="para1">To contact Rob for public speaking, property investments or direct enquiries please fill in the details below.<br /> 
+                    Rob does read these personally, though please be patient as he gets many requests
+                </p>
+            </div>   
+        
+            <form class="contactform">                  
+                <p>
+                <label for="name"> <input type="text" name="name" placeholder="Your name" class="xlarge" required></label>
+                <label for="email"> <input type="email" name="email" placeholder="E-mail" class="xlarge" required></label>
+                <label for="subject"><input type="text" name="subject" placeholder="Subject" class="xlarge" required></label><br />
+                <label for="choice"></label>
+                <label for="pays"><span>*Please select an option</span></label>       
+                <select name="option" id="option" class="select">           
+                    <option value="hire">Hire Rob to speak</option>           
+                    <option value="blblabla">blabalbal</option>           
+                    <option value="claclacla">claclacla</option>           
+                    <option value="dladladla">dladladla</option>           
+                    <option value="elaelaela">elaelaela</option>           
+                </select><br />
+                <textarea name="messsage" id="message" placeholder="Your Message" class="area"></textarea><br />
+                <input type="submit" value="SEND" class="send"/>
+
+                </p>
+            </form>
+        </section>
+    </div>
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="img/icon.png" type="img/x-icon">
+
+        <title>Podcast | The Alan Podcast</title>
+
+        <link rel="shortcut icon" href="img/logo.png">
+        <link rel="stylesheet" href="css/media.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/mainn.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="js/Poodcast.js">
+        <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Nav bar -->
+        <header>
+            <center>
+              <img src="img/logo.jpg" alt="logo" width="300px">
+            </center>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li>
+                  <div class="dropdown">
+                    <button class="dropbtn">Podcast
+                      <!-- <i class="fa fa-caret-down"></i> -->
+                    </button>
+                    <div class="dropdown-content">
+                      <a href="Podcast1.html">podcast 1</a>
+                      <a href="Podcast2.html">podcast 2</a>
+                      <a href="Podcast3.html">podcast 3</a>
+                    </div>
+                  </div>
+                </li>
+                <li><a href="CONTACT.html">CONTACT</a></li>
+            </ul>
+        </header>
+
+        <!-- Podcast -->
+        <div class="podcast-3">
+            <!-- <div class="podcast-3-opacity">
+                <img class="podcast-3-image" src="img/podcast-3.png" alt="">
+            </div> -->
+            <div class="podcast-3-content">
+              
+                <h1>The Podcast On Alan Podcast</h1>
+                <h3 class="para">Enjoy many podcasts as you wish
+                </h3>
+              
+            </div>
+        </div>
+        <div class="box">
+          <img class="animation" src="img/f2.jpg" alt="">
+          <h1 id="pod-1" style="color: rgb(128, 255, 0);">Our podcast's publishing platform</h1>
+          <h2 id="podText"> How does this sound?  </h2>
+          <div class="intext">
+            <!-- <h1 id="pod-1" style="color: rgb(128, 255, 0);">Our podcast's publishing platform</h1>
+            <h2 id="podText"> How does this sound?  </h2> -->
+          </div>
+        </div>
+
+        <!-- podcast images -->
+
+        <div class="Pimg">
+          <div>  
+            <a href="#"> <img src="img/pic1.jpg" alt=""></a>
+            
+          </div>  
+          <div>  
+            <img src="img/pic2.jpg" alt="">
+            <h4>
+              
+            </h4>
+          </div>  
+          <div>  
+            <img src="img/pic3.jpg" alt="">
+            <h4>
+              
+            </h4>
+          </div>  
+        </div>
+
+        <!-- Empty Div -->
+        <div id="empty"></div>
+
+        <!-- Forms For Inputs -->
+        <div class="inputs">
+          <div class="inputs-group-1">
+            <input type="test" id="launch" placeholder="la durée">
+            <input type="test" id="date" placeholder="l'heure et la date d'ajout">
+            <input type="test" id="episode" placeholder="le nom de l'épisode">
+          </div>
+
+          <div class="inputs-group-2">
+            <input type="test" id="description" placeholder="la description de l'épisode">
+            <input type="test" id="morceau" placeholder="le lien du morceau">
+            <input type="test" id="tags" placeholder="les tags associés">
+          </div>
+
+        </div>
+
+        <!-- Inputs Group 3 -->
+        <div class="inputs-group-3">
+          <input type="test" id="invite" placeholder="Les invités">
+          <button class="submit" onclick="addPodcast()">Submit</button>
+        </div>
+
+        <!-- Scripts For Import Only -->
+        <script src="js/podcast.js"></script>
+    </body>
+</html>

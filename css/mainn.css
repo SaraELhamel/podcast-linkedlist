@@ -1,0 +1,73 @@
+body{
+  background-color: #000000;
+  font-family: 'Poppins', sans-wserif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-size: 15px;
+  /* color: #b3b449; */
+
+}
+h1, h3, h2{
+  color: white;
+  text-align: center;
+}
+
+.para{
+  /* width: 60%; */
+}
+header center{
+  margin-top: 15px;
+}
+header ul li a{
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  margin: 0 10px;
+  transition: 0.4s;
+}
+header ul li a:hover{
+  color: #c21e1e;
+
+}
+header ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding-inline-start: 0px;
+}
+.current{
+  color: #b3b449;
+}
+
+/* image in the middel  */
+.animation{
+  width: 60%;
+  /* margin-left: 360px; */
+  border-radius: 3%;
+}
+
+.box{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.box .intext{
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 120px;
+  right: 0;
+  top: 75%; /* Adjust this value to move the positioned div up and down */
+  text-align: start;
+  width: 60%; /* Set the width of the positioned div */
+}
+ /* ligne image*/
+.Pimg{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
